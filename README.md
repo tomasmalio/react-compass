@@ -1,7 +1,7 @@
 # React Compass
 React component that renders a visual compass allowing orientation to be displayed through dynamic rotation.
 
-## How to use it
+## How to use implement
 
 Simply, you must execute the next command in your terminal:
 
@@ -25,6 +25,7 @@ export const App = () => {
 
 ## Properties (Props)
 
+
 | Prop                | Type    | Description                                                                 | Default |
 | ------------------- | ------- | --------------------------------------------------------------------------- | ------- |
 | `value`             | number  | Value in degrees for the arrow's orientation.                               | `0`     |
@@ -36,3 +37,13 @@ export const App = () => {
 | `labelColor`        | string  | Color of the label text.                                                    | `null`  |
 | `displayCompassLine`| boolean | Whether to display the central vertical and horizontal lines.               | `true`  |
 | `displayCompassTick`| boolean | Whether to display the small lines between each cardinal direction.         | `true`  |
+
+
+## Styles
+The styles for this component are defined in src/Compass.scss. Make sure to import this file into your application where you use the component.
+
+# Author
+Tomas Malio Esnaola
+
+# License
+MIT
