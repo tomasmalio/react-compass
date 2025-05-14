@@ -1,7 +1,7 @@
 {
   "name": "simple-react-compass",
-  "version": "1.0.2",
-  "description": "Simple React Compass.",
+  "version": "1.0.3",
+  "description": "Simple React Compass",
   "main": "src/Compass.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,7 @@
     "compass",
     "ui"
   ],
-  "author": "Tomas Malio Esnaola <tomasmalio@gmail.com>",
+  "author": "Tomás Malio<tomasmalio@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tomasmalio/simple-react-compass/issues"
@@ -25,5 +25,11 @@
   },
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "babel-loader": "^10.0.0"
   }
 }

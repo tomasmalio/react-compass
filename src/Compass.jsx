@@ -3,7 +3,7 @@
  * A simple compass component that displays a compass with a rotation arrow
  * and optional labels for direction and degree.
  * 
- * @author Tomas Malio Esnaola
+ * @author Tomas Malio
  * @email tomasmalio@gmail.com
  * 
  */
