@@ -31,7 +31,7 @@ const getDirection = (deg) => {
  * @param {displayCompassTick} boolean - display the lines between each direction
  * @returns Compass
  */
-export const Compass = ({ value = 0, displayLabel = false, width = null, height = null, borderColor = null, backgroundColor = null, labelColor = null, displayCompassLine = true, displayCompassTick = true }) => {
+const Compass = ({ value = 0, displayLabel = false, width = null, height = null, borderColor = null, backgroundColor = null, labelColor = null, displayCompassLine = true, displayCompassTick = true }) => {
   const direction = getDirection(value);
 
   return React.createElement(
@@ -102,3 +102,5 @@ export const Compass = ({ value = 0, displayLabel = false, width = null, height 
     )
   );
 };
+
+export default Compass;
