@@ -1,7 +1,7 @@
 {
-  "name": "react-compass",
+  "name": "simple-react-compass",
   "version": "1.0.0",
-  "description": "React compass.",
+  "description": "Simple React Compass.",
   "main": "src/Compass.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,12 +16,12 @@
   "author": "Tomas Malio Esnaola <tomasmalio@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tomasmalio/react-compass/issues"
+    "url": "https://github.com/tomasmalio/simple-react-compass/issues"
   },
-  "homepage": "https://github.com/tomasmalio/react-compass#readme",
+  "homepage": "https://github.com/tomasmalio/simple-react-compass#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomasmalio/react-compass.git"
+    "url": "git+https://github.com/tomasmalio/simple-react-compass.git"
   },
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
