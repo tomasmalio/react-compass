@@ -23,8 +23,9 @@ export const App = () => {
 }
 ```
 
+Let's go ahead and see what kind of properties you can share to the component to customize as you want.
 
-## Properties (Props)
+## Properties
 
 
 | Prop                | Type    | Description                                                                 | Default |
