@@ -1,2 +1,38 @@
-# react-compass
+# React Compass
 React component that renders a visual compass allowing orientation to be displayed through dynamic rotation.
+
+## How to use it
+
+Simply, you must execute the next command in your terminal:
+
+```bash
+npm install mi-componente-compass
+```
+
+And then, you can added in your views like this:
+
+```js
+import { Compass } from 'react-compass';
+
+export const App = () => {
+  return (
+    <div>
+      <Compass value={45} />
+    </div>
+  );
+}
+```
+
+## Properties (Props)
+
+| Prop                | Type    | Description                                                                 | Default |
+| ------------------- | ------- | --------------------------------------------------------------------------- | ------- |
+| `value`             | number  | Value in degrees for the arrow's orientation.                               | `0`     |
+| `displayLabel`      | boolean | Whether to display the degree and direction label.                          | `false` |
+| `width`             | number  | Width of the compass component.                                             | `null`  |
+| `height`            | number  | Height of the compass component.                                            | `null`  |
+| `borderColor`       | string  | Border color of the compass.                                                | `null`  |
+| `backgroundColor`   | string  | Background color of the compass.                                            | `null`  |
+| `labelColor`        | string  | Color of the label text.                                                    | `null`  |
+| `displayCompassLine`| boolean | Whether to display the central vertical and horizontal lines.               | `true`  |
+| `displayCompassTick`| boolean | Whether to display the small lines between each cardinal direction.         | `true`  |

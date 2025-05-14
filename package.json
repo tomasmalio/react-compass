@@ -1,0 +1,29 @@
+{
+  "name": "react-compass",
+  "version": "1.0.0",
+  "description": "React compass.",
+  "main": "src/Compass.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "componente",
+    "brújula",
+    "compass",
+    "ui"
+  ],
+  "author": "Tomas Malio Esnaola <tomasmalio@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomasmalio/react-compass/issues"
+  },
+  "homepage": "https://github.com/tomasmalio/react-compass#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasmalio/react-compass.git"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  }
+}
