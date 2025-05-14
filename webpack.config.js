@@ -4,7 +4,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
+        test: /\.(js)$/,
         include: [
           path.resolve(__dirname, 'src'),
           path.resolve(__dirname, 'node_modules', 'simple-react-compass', 'src'),

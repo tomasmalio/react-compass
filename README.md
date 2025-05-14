@@ -42,7 +42,7 @@ Let's go ahead and see what kind of properties you can share to the component to
 
 
 ## Styles
-The styles for this component are defined in src/Compass.scss. Make sure to import this file into your application where you use the component.
+The styles for this component are defined in `src/Compass.css`. Make sure to import this file into your application where you use the component.
 
 # Author
 Tomás Malio
