@@ -6,13 +6,13 @@ React component that renders a visual compass allowing orientation to be display
 Simply, you must execute the next command in your terminal:
 
 ```bash
-npm install mi-componente-compass
+npm install simple-react-compass
 ```
 
 And then, you can added in your views like this:
 
 ```js
-import { Compass } from 'react-compass';
+import { Compass } from 'simple-react-compass';
 
 export const App = () => {
   return (
