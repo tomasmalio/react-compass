@@ -1,0 +1,6 @@
+# Node modules
+node_modules
+# File created by MacOS
+.DS_Store
+# Package Lock JSON
+package-lock.json
