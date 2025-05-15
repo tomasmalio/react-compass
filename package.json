@@ -1,6 +1,6 @@
 {
   "name": "simple-react-compass",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Simple React Compass",
   "main": "src/Compass.js",
   "scripts": {

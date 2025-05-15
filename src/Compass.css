@@ -33,10 +33,10 @@
 }
 
 .compass__arrow-wrapper {
-  animation: compassWiggle 2s ease-in-out infinite;
   display: inline-block;
   left: 50%;
   position: absolute;
+  transform: translate(-50%, -50%) rotate(var(--arrow-rotation));
   top: 50%;
 }
 
@@ -46,6 +46,7 @@
 /* The north arrow is colored with $north-color */
 /* and the south arrow is colored with $south-color */
 .compass__arrow {
+  animation: compassWiggle 2s ease-in-out infinite;
   height: 100px;
   transform-origin: center center;
   width: 6px;
