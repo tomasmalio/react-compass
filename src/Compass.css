@@ -26,6 +26,17 @@
   position: relative;
 }
 
+@keyframes compassWiggle {
+  0%   { transform: rotate(-1deg); }
+  50%  { transform: rotate(1deg); }
+  100% { transform: rotate(-1deg); }
+}
+
+.compass__arrow-wrapper {
+  animation: compassWiggle 2s ease-in-out infinite;
+  display: inline-block;
+}
+
 /* Arrows (North and South) */
 /* The arrows are positioned in the center of the compass */
 /* and rotate around the center point */

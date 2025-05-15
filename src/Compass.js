@@ -75,11 +75,15 @@ const Compass = ({ value = 0, displayLabel = false, width = null, height = null,
           )
         )
       ),
-      React.createElement('div', { className: 'compass__pivot' }),
-      React.createElement('div', {
-        className: 'compass__arrow',
-        style: { transform: `translate(-50%, -50%) rotate(${value}deg)` },
-      }),
+      React.createElement('div', { className: 'compass__pivot' }),    
+      React.createElement(
+        'div',
+        { className: 'compass__arrow-wrapper' }, // Container with animation
+        React.createElement('div', {
+          className: 'compass__arrow',
+          style: { transform: `translate(-50%, -50%) rotate(${value}deg)` },
+        })
+      ),
       displayLabel && React.createElement(
         'div',
         {
