@@ -38,6 +38,7 @@
   position: absolute;
   transform: translate(-50%, -50%) rotate(var(--arrow-rotation));
   top: 50%;
+  z-index: 1;
 }
 
 /* Arrows (North and South) */
