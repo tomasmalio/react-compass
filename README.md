@@ -1,4 +1,4 @@
-# React Compass
+# Simple React Compass
 React component that renders a visual compass allowing orientation to be displayed through dynamic rotation. Try it 👉​ [Demo](https://codesandbox.io/p/sandbox/rtyg43).
 ## How to use implement
 
